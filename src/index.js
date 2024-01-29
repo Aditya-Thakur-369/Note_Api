@@ -15,7 +15,7 @@ app.get("/", (req, res) => {
 
 mongoose
   .connect(
-    "mongodb+srv://admin:Mtch9MWmM3mNFIro@cluster0.a5snalu.mongodb.net/?retryWrites=true&w=majority"
+    "mongodb+srv://admin:zpIVkAj69bBqbPGQ@cluster0.a5snalu.mongodb.net/?retryWrites=true&w=majority"
   )
   .then(() =>
     app.listen(3000, () => console.log("Server started on post no: 3000"))
